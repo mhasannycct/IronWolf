@@ -131,8 +131,8 @@ h3 {
 <div class="formDiv" style="text-align:center;padding:auto;text-align: justify;">
   
   
-<form  name="contactForm" onsubmit="return validateForm()" action="confirmation.php" method="post" ; >
-    <h2 >Registration Form</h2>
+<form name="contactForm" onsubmit="return validateForm()" action="confirmation.php" method="post">
+    <h2>Registration Form</h2>
     <div class="row">
         <label>Full Name</label>
         <input type="text" name="name">
@@ -149,7 +149,7 @@ h3 {
         <div class="error" id="mobileErr"></div>
     </div>
     <div class="row">
-        <label>Country</label>
+        <label>City</label>
         <select name="City">
             <option>Select</option>
             <option selected="yes">Bronx</option> <!-- default selected option -->
@@ -158,10 +158,10 @@ h3 {
             <option>Brooklyn</option>
             <option>Staten Island</option>
         </select> 
-        <div class="error" id="countryErr"></div>
+        <div class="error" id="cityErr"></div>
     </div>
     <div class="row">
-        <label>Gender &nbsp;&nbsp;</label>
+        <label>Gender</label>
         <div class="form-inline">
             <label><input type="radio" name="gender" value="male"> Male</label>
             <label><input type="radio" name="gender" value="female"> Female</label> 
@@ -180,6 +180,7 @@ h3 {
         <input type="submit" value="Submit">
     </div>
 </form>
+ 
  
 </div>
 <!-- Regtration form end here -->
