@@ -33,6 +33,7 @@ input, select {
       background-image: url("https://images.pexels.com/photos/192136/pexels-photo-192136.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
     background-repeat: no-repeat;
     background-size: cover; 
+    font-family: 'Roboto Slab', serif;
 
 }
 .row {
